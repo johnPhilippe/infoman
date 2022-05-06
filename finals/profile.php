@@ -29,7 +29,7 @@
 
                     echo "<div class='profile-element'>";
                         echo "<h2>NAME</h2>";
-                        echo "<h3>" . $row['last_Name'] . " ". $row['first_Name'] . "</h3>";
+                        echo "<h3>" . $row['first_Name'] . " ". $row['last_Name'] . "</h3>";
                     echo "</div>";
 
                     echo "<div class='profile-element'>";
@@ -41,7 +41,11 @@
                         echo "<h2>PHONE NUMBER</h2>";
                         echo "<h3>" . $row['phone_Num'] . "</h3>";
                     echo "</div>";
+                    
                 echo "</div>";
+                echo"<div class='delete'>";
+                    echo "<a href='delete.php?id=" . $row['id'] . "'><center>Delete </center></a>.</p>";
+                echo"</div>";
             echo "</div>";
         }
     }
