@@ -228,6 +228,22 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
   color: white;
 }
 
+.delete{
+  width: 25%;
+  height: 45px;
+  margin-top: 5%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d83c3e;
+}
+
+.delete a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+
 .profile-element{
   margin-bottom: 20px;
 }
@@ -289,6 +305,52 @@ label{
 
 .invalid-feedback{
   color: #aaaaaa;
+}
+.delete-box{
+  margin: auto;
+  width: 30%;
+  margin-top: 11%;
+}
+.h2-delete{
+  margin-bottom: 20px;
+}
+.input-delete{
+  background-color: #1a1b1e;
+  border-radius: 5px;
+  padding: 3%;
+}
+.input-delete p{
+  color:#f7f7fc;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.btn-submit{
+  background-color: #d83c3e;
+  margin-right: 2%;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 30px;
+  width: 10%;
+}
+.btn-no{
+  background-color: #aaaaaa;
+  border-radius: 5px;
+  padding-top: 4px;
+  height: 30px;
+  width: 10%;
+  text-align: center;
+}
+
+.btn-no a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.ans{
+  display: flex;
 }
 
 
